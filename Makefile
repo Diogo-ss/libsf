@@ -14,7 +14,7 @@ NAME 		= libsf.a
 HEADER 		= libsf.h
 CC 			= cc
 CFLAGS 		= -Wall -Werror -Wextra
-SRC 		:= sf_factorial.c sf_index.c
+SRC 		:= sf_factorial.c sf_index.c sf_arraylen.c
 
 OBJS 		:= $(SRC:.c=.o)
 

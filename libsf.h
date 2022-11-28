@@ -22,5 +22,11 @@
 
 int	sf_index(const void *array[], const char *str, const int len);
 int	sf_factorial(const int num);
+size_t sf_arraylen(char *array[]);
 
 #endif
+
+/* nota 
+ *tornar o sf_arraylen const void *array
+ */
+

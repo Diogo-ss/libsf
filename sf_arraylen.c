@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                               ::::::::   :::::::           */
-/*   sf_index.c  	                             :+:    :+:   :+:             */
+/*   sf_arraylen.c                               :+:    :+:   :+:             */
 /*                                               +:+    +:+   +:+             */
 /*   By: Diogo-ss <diogo-ss@mail.com>            +#+    +:+   +#+             */
 /*                                               +#+    +#+   +#+             */
-/*   Created: 2022/11/27 19:04:18 by Diogo-ss    #+#    #+#   #+#             */
-/*   Updated: 2022/11/27 19:04:18 by Diogo-ss    ########   #######           */
+/*   Created: 2022/11/27 23:32:53 by Diogo-ss    #+#    #+#   #+#             */
+/*   Updated: 2022/11/27 23:32:53 by Diogo-ss    ########   #######           */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	sf_index(const void *array[], const void *str, const int len)
-{
-	int	count;
+#include "libsf.h"
+#include <stddef.h>
 
-	count = 0;
-	while (count < len)
+size_t sf_arraylen(char *array[])
+{
+	size_t count;
+
+	while (array[count])
 	{
-		if (array[count] == str)
-		{
-			return (count);
-		}
 		count++;
 	}
-	return (-1);
+	return (count);
 }
