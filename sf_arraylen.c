@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libsf.h"
+/* #include "libsf.h" */
 #include <stddef.h>
 
 size_t sf_arraylen(char *array[])
