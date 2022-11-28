@@ -6,7 +6,7 @@
 #    By: Diogo-ss <diogo-ss@mail.com>                   +#+    +:+   +#+       #
 #                                                       +#+    +#+   +#+       #
 #    Created: 2022/11/28 19:04:40 by Diogo-ss           #+#    #+#   #+#       #
-#    Updated: 2022/11/28 19:04:43 by Diogo-ss           ########   #######     #
+#    Updated: 2022/11/28 19:37:03 by Diogo-ss           ########   #######     #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,9 @@ NAME 		= libsf.a
 HEADER 		= libsf.h
 CC 			= cc
 CFLAGS 		= -Wall -Werror -Wextra
-SRC 		:= sf_factorial.c sf_index.c sf_arraylen.c
+SRC 		:= sf_arrayfreq.c sf_arrayindex.c sf_arraylen.c \
+			   sf_numarray.c sf_numfact.c sf_strfreq.c\
+			   sf_strindex.c sf_strstrip.c
 
 OBJS 		:= $(SRC:.c=.o)
 

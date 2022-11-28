@@ -6,17 +6,13 @@
 /*   By: Diogo-ss <diogo-ss@mail.com>                   +#+    +:+   +#+      */
 /*                                                      +#+    +#+   +#+      */
 /*   Created: 2022/11/28 19:03:49 by Diogo-ss           #+#    #+#   #+#      */
-/*   Updated: 2022/11/28 19:03:50 by Diogo-ss           ########   #######    */
+/*   Updated: 2022/11/28 20:13:02 by Diogo-ss           ########   #######    */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <nl_types.h>
-#include <stdio.h>
+#include "libsf.h"
 
-void *sf_numarray(unsigned int num)
+void	*sf_numarray(unsigned int num)
 {
-	
-	
-
 	return (NULL);
 }

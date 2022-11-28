@@ -6,14 +6,11 @@
 /*   By: Diogo-ss <diogo-ss@mail.com>                   +#+    +:+   +#+      */
 /*                                                      +#+    +#+   +#+      */
 /*   Created: 2022/11/28 19:04:01 by Diogo-ss           #+#    #+#   #+#      */
-/*   Updated: 2022/11/28 19:04:05 by Diogo-ss           ########   #######    */
+/*   Updated: 2022/11/28 20:13:19 by Diogo-ss           ########   #######    */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-/* #include "libsf.h" */
-#include <stddef.h>
-#include <stdio.h>
+#include "libsf.h"
 
 int	sf_factorial(const int num)
 {

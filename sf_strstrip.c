@@ -1,25 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                      ::::::::   :::::::    */
-/*   sf_arraylen.c                                      :+:    :+:   :+:      */
+/*   sf_strstrip.c                                      :+:    :+:   :+:      */
 /*                                                      +:+    +:+   +:+      */
 /*   By: Diogo-ss <diogo-ss@mail.com>                   +#+    +:+   +#+      */
 /*                                                      +#+    +#+   +#+      */
-/*   Created: 2022/11/28 19:03:41 by Diogo-ss           #+#    #+#   #+#      */
-/*   Updated: 2022/11/28 20:12:33 by Diogo-ss           ########   #######    */
+/*   Created: 2022/11/28 19:12:45 by Diogo-ss           #+#    #+#   #+#      */
+/*   Updated: 2022/11/28 20:18:10 by Diogo-ss           ########   #######    */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* #include "libsf.h" */
-#include <stddef.h>
+#include "libsf.h"
+#include <stdio.h>
 
-size_t	sf_arraylen(char *array[])
+void	*sf_strstrip(const char *arry)
 {
-	size_t	count;
+	size_t	strlen;
+	char	*l_array;
 
-	while (array[count])
-	{
-		count++;
-	}
-	return (count);
+	l_array = (char *)arry;
+	printf("%lu", strlen);
 }
