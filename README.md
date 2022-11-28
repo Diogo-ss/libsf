@@ -1,20 +1,20 @@
 # libsf
 Simple Functions For C
 
-- Files Status
-🔴 - untested
-🟠 - test
-🟡 - revision
-🟢 - done
+🔰 - Files Status <br>
+🔴 - untested    <br>
+🟠 - test        <br>
+🟡 - revision    <br>
+🟢 - done        <br>
 
 
-Makefile        🟡
-libsf.h         🟡
+Makefile        🟡  <br>
+libsf.h         🟡  <br>
 
-sf_arraylen.c   🔴
-sf_factorial.c  🔴
-sf_numarray.c   🔴
-sf_strindex.c   🔴
-sf_charfreq.c   🔴
-f_index.c       🔴
-sf_strfreq.c    🔴
+sf_arraylen.c   🔴  <br>
+sf_factorial.c  🔴  <br>
+sf_numarray.c   🔴  <br>
+sf_strindex.c   🔴  <br>
+sf_charfreq.c   🔴  <br>
+f_index.c       🔴  <br>
+sf_strfreq.c    🔴  <br>
