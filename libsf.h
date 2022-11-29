@@ -6,7 +6,7 @@
 /*   By: Diogo-ss <diogo-ss@mail.com>                   +#+    +:+   +#+      */
 /*                                                      +#+    +#+   +#+      */
 /*   Created: 2022/11/28 19:04:28 by Diogo-ss           #+#    #+#   #+#      */
-/*   Updated: 2022/11/28 21:52:38 by Diogo-ss           ########   #######    */
+/*   Updated: 2022/11/28 21:56:10 by Diogo-ss           ########   #######    */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ size_t	sf_arrayfreq(char *array[], char *str);
 size_t	sf_arraylen(char *array[]);
 
 /* returns the position of a specific value in the array                      */
-int	sf_arrayindex(char *array[], char *str);
+int	sf_arraystr(char *array[], char *str);
 
 /* Number Functions  ******************************************************** */
 
