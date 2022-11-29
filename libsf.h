@@ -6,7 +6,7 @@
 /*   By: Diogo-ss <diogo-ss@mail.com>                   +#+    +:+   +#+      */
 /*                                                      +#+    +#+   +#+      */
 /*   Created: 2022/11/28 19:04:28 by Diogo-ss           #+#    #+#   #+#      */
-/*   Updated: 2022/11/28 20:58:17 by Diogo-ss           ########   #######    */
+/*   Updated: 2022/11/28 21:52:38 by Diogo-ss           ########   #######    */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	sf_numfact(const int num);
 size_t	sf_strfreq(unsigned char *str, size_t val);
 
 /* returns the position of a specific value in the string                     */
-size_t	sf_strindex(char *array[], char *str);
+size_t	sf_strchar(char *array[], char *str);
 
 /* return a pointer of string sent without the whitespace                     */
 void	*sf_strstrip(const char *arry);
